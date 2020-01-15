@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body {
+    font-family: 'Noto Serif JP', serif, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* bg画像 ---------*/
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/* We propose a life --------------*/
+#menu {
+    background-image: url(../images/AdobeStock_199226712@2x.png);
+    min-height: 100vh;
+}
+.menu-content {
+    max-width: 860px;
+    color: #fff;
+}
+.menu-content .page-title {
+    text-align: center;
+}
+.menu-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+.menu-content h2{
+    text-transform:lowercase;
+}
+.menu-content h2::first-letter{
+    text-transform: capitalize;
+}
+.page-title {
+    padding-top: 25%;
+    font-size: 5rem;
+    /*font-family: 'Noto Sans', Thin, sans-serif;*/
+    /*text-transform: uppercase;*/
+    font-weight: normal;
+}
+
+/*メッセージ ---------------*/
+.main-article {
+    text-align: center;
+    padding: 0 4%;
+}
+.main-article h2 {
+    margin: 50px 50px;
+    font-size: 3.125rem;
+}
+.main-article img {
+    height:10%;
+    width: 100%;
+    object-fit: fill;
+}
+.main-article-txt {
+    margin-top: 20px;
+}
+.main-article p {
+    font-size: 1.5rem;
+}
+
+/*商品 ------------*/
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+/*Btm Bg-------------*/
+.bottom-bg {
+    background-image: url(../images/AdobeStock_279823582@2x.png);
+    min-height: 100vh;
+}
+.bottom-content {
+    text-align: center;
+    padding-top: 20%;
+}
+
+/* ボタン ---------------------*/
+.button {
+    font-size: 1.375rem;
+    background: rgb(223, 0, 67);
+    color: #fff;
+    border-radius: 8px;
+    padding: 18px 32px;
+}
+.button:hover {
+    background: #f14856f6;
+}
+
+/* モバイル ------------------------*/
+@media (max-width: 600px) {
+    .main-article h2 {
+        margin: 50px 50px;
+        font-size: 1.3rem;
+    }
+    .main-article p {
+        font-size: 1rem;
+    }
+    .page-title {
+        font-size: 2rem;
+    }
+    .bottom-content {
+        padding-top: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
